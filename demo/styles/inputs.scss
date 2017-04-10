@@ -1,0 +1,53 @@
+.checkbox-1{
+
+}
+
+.text-field-1{
+  color: initial;
+  background-color: white;
+  text-shadow: initial;
+  padding: initial;
+  font-size: 14px;
+
+  width:40px;
+  height: 16px;
+  border: initial;
+  border-color: initial;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
+.text-field-1:focus{
+  outline: none;
+}
+
+.radio-1{
+  position: relative;
+  display: inline-block;
+  width: initial;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  cursor: default;
+}
+
+.radio-1 .input-icon{
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border: 1px solid green;
+  border-radius: 50%;
+  top: 3px;
+  left: 0px;
+}
+
+.radio-1.checked .input-icon::before{
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: pink;
+}
