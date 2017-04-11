@@ -8279,11 +8279,10 @@
 	    var _this = _possibleConstructorReturn(this, (Root.__proto__ || Object.getPrototypeOf(Root)).call(this, props));
 
 	    _this.state = {
-	      value: 20,
-	      defaultValue: 20,
+	      value: [20, 40],
 	      min: 0,
 	      max: 100,
-	      valueText: "20",
+	      valueText: "[20, 40]",
 	      reversed: false
 	    };
 
